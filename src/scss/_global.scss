@@ -27,6 +27,7 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 a {
@@ -37,3 +38,22 @@ button:focus,
 input:focus {
   outline: transparent;
 }
+
+body{
+  color: #f0f0f0;
+  @include BPGB;
+  font-size: 21px;
+  line-height: 1.2;
+}
+
+.container{
+  max-width: 2190px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#popup{
+  display: none;
+}
+

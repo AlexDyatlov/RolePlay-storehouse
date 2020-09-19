@@ -6,6 +6,74 @@
   @@include('components/_header.html')
   <!-- WRITE CODE HERE -->
 
+  <main class="stock" style="background-image: url('images/bg.png');">
+    <div class="container">
+      <div class="stock__inner">
+        <div class="stock__title">სათავსო / საწყობი</div>
+        <div class="stock__content">
+          <div class="stock__item">
+            <div class="stock__item-title" style="background-image: url('images/content/item-1.png');">
+              ფული <span>მარაგშია: 55000</span>
+            </div>
+            <div class="stock__item-btn">
+              <button class="stock__item-button" type="submit" data-fancybox data-src="#popup" href="javascript:;">აღება</button>
+              <button class="stock__item-button" type="submit" data-fancybox data-src="#popup" href="javascript:;">ჩადება</button>
+            </div>
+          </div>
+          <div class="stock__item">
+            <div class="stock__item-title" style="background-image: url('images/content/item-2.png');">
+              აფთიაქი <span>მარაგშია: 53</span>
+            </div>
+            <div class="stock__item-btn">
+              <button class="stock__item-button" type="submit" data-fancybox data-src="#popup" href="javascript:;">აღება</button>
+              <button class="stock__item-button" type="submit" data-fancybox data-src="#popup" href="javascript:;">ჩადება</button>
+            </div>
+          </div>
+          <div class="stock__item">
+            <div class="stock__item-title" style="background-image: url('images/content/item-1.png');">
+              ფული <span>მარაგშია: 172</span>
+            </div>
+            <div class="stock__item-btn">
+              <button class="stock__item-button" type="submit" data-fancybox data-src="#popup" href="javascript:;">აღება</button>
+              <button class="stock__item-button" type="submit" data-fancybox data-src="#popup" href="javascript:;">ჩადება</button>
+            </div>
+          </div>
+          <div class="stock__item">
+            <div class="stock__item-title" style="background-image: url('images/content/item-4.png');">
+              მატერიალი <span>მარაგშია: 4000</span>
+            </div>
+            <div class="stock__item-btn">
+              <button class="stock__item-button" type="submit" data-fancybox data-src="#popup" href="javascript:;">აღება</button>
+              <button class="stock__item-button" type="submit" data-fancybox data-src="#popup" href="javascript:;">ჩადება</button>
+            </div>
+          </div>
+          <div class="stock__item">
+            <div class="stock__item-title" style="background-image: url('images/content/item-5.png');">
+              იარაღი <span>მარაგშია: 45</span>
+            </div>
+            <div class="stock__item-btn">
+              <button class="stock__item-button" type="submit" data-fancybox data-src="#popup" href="javascript:;">აღება</button>
+              <button class="stock__item-button" type="submit" data-fancybox data-src="#popup" href="javascript:;">ჩადება</button>
+            </div>
+          </div>
+        </div>
+        <button class="btn stock__button" type="button">დახურვა</button>
+      </div>
+    </div>
+  </main>
+
+  <div id="popup">
+    <div class="popup__inner" style="background-image: url('images/popup-bg.png');">
+      <div class="popup__inner-title">
+        მიუთითეთ რაოდენობა:
+      </div>
+      <form class="popup__inner-form">
+        <input class="popup__inner-input" type="number" min="0" placeholder="300" required>
+        <button class="popup__inner-btn" type="submit">ყიდვა</button>
+      </form>
+    </div>
+  </div>
+
   <!-- STOP WRITE CODE -->
   @@include('components/_footer.html')
   @@include('components/_scripts.html')

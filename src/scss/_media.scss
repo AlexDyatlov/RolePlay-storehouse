@@ -1,0 +1,82 @@
+@media(max-width: 1920px){
+  .stock{
+    padding: 90px 0;
+    &__inner{
+      max-width: 670px;
+    }
+    &__title{
+      padding-top: 25px;
+      min-height: 80px;
+    }
+    &__content{
+      min-height: 725px;
+    }
+    &__button{
+      height: 55px;
+    }
+  }
+  .stock__item{
+    min-height: 111px;
+    &-title{
+      padding-top: 25px;
+      width: 420px;
+    }
+    &-button{
+      height: 48px;
+    }
+  }
+  .btn:hover:before{
+    height: 1000%;
+  }
+}
+@media(max-width: 1370px){
+  .stock{
+    padding: 75px 0 50px;
+    &__inner{
+      max-width: 490px;
+    }
+    &__title{
+      padding-top: 18px;
+      min-height: 60px;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    &__content{
+      min-height: 520px;
+    }
+    &__button{
+      font-size: 18px;
+      height: 40px;
+    }
+  }
+  .stock__item{
+    min-height: 79px;
+    margin-bottom: 20px;
+    &-title{
+      padding-top: 15px;
+      width: 330px;
+      font-size: 21px;
+      span{
+        font-size: 16px;
+      }
+    }
+    &-btn{
+      width: 145px;
+    }
+    &-button{
+      height: 32px;
+      font-size: 16px;
+    }
+  }
+  .popup__inner{
+    min-height: 430px;
+    width: 630px;
+    padding-top: 85px;
+    &-form{
+      max-width: 420px;
+    }
+    &-input{
+      width: 290px;
+    }
+  }
+}
